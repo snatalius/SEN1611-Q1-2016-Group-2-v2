@@ -1,0 +1,1593 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix ex: <http://example.com/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+ex:dataset-1 a qb:DataSet ;
+	dct:title "Labour Cost Level" ;
+	rdfs:label "Labour Cost Level" ;
+	rdfs:comment "Labour Cost Level" ;
+	dct:description "Labour Cost Level" ;
+	dct:publisher "Eurostat" ;
+	qb:structure ex:structure-1 .
+
+ex:structure-1 a qb:DataStructureDefinition .
+
+_:node1avc179bnx1 qb:dimension ex:country , ex:period ;
+	qb:measure ex:value ;
+	qb:dimension ex:factor .
+
+ex:structure-1 qb:component _:node1avc179bnx1 .
+
+<http://example.com/laborcostlevel/2005/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "25.0371"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "24.7698"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "25.6014"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "26.4"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "27.7101"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "28.3041"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "29.1951"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "29.7"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "32.566"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "33.364"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "33.896"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "32.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "35.72"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "36.29"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "37.012"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "38"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.479"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.6966"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "2.006"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "2.6"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "2.5568"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "2.9818"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "3.162"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "3.4"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.038"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "9.1036"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "9.1692"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "9.2"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.574876847"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "9.069458128"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "9.631034483"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.5"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "17.892"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "18.8832"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "19.1856"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "16.7"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "18.0264"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "18.3288"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "18.4128"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "16.8"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2005%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.717282717"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2006%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.744255744"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2007%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.81018981"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2008%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "9.2"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2009%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.913086913"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2010%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.967032967"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2011%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.989010989"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2012%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "36.0395"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "36.8674"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "37.6953"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "34.6"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "42.70167598"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "43.36201117"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "41.38100559"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "39.4"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "4.6956"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "5.4782"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "6.6736"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "7.8"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "7.4046"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "7.7916"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "8.2474"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "8.6"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "25.0087"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "25.9164"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "26.2294"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "27.1"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "27.7318"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "27.3562"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "29.5159"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "31.3"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "27.7144"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "28.469"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "29.5323"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "31.2"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "31.1787"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "32.0362"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "33.3739"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "34.3"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "27.0845"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "27.6214"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "28.1583"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "27.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "30.08963197"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "30.02928374"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "30.25860704"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "30.5"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "21.2075"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "20.629"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "20.0505"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "16.7"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "21.5875"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "20.04553571"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "17.80267857"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "15.7"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "4.580210526"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "5.055368421"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "5.655157895"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "7.8"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "6.457473684"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "6.309473684"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "6.963789474"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "7.4"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "25.7472"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "26.1942"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "25.33"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "28.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "27.863"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "28.4292"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "30.2768"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "29.8"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "18.9468"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "20.3872"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "21.606"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "25.2"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "24.4868"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "26.0657"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "26.9521"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "27.7"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "2.8084"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "3.5223"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "4.7495"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "6"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "5.8233"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "5.841"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "5.8351"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "5.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "3.6226"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "4.2716"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "5.1389"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "5.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "5.546"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "5.3867"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "5.3277"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "5.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "26.86989033"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "28.2556331"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "29.23579262"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "31"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "31.29750748"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "32.3114656"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "33.0550349"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "33.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.461261261"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "10.44164164"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "9.614814815"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "11.4"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.697497497"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "10.55975976"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "10.91411411"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "11.8"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "26.1625"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "27.235"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "28.73"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "29.8"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "30.1925"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "31.72"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "32.9875"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "32.5"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "5.293"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "5.5379"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "5.9961"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "7.6"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "6.9204"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "7.1021"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "7.5761"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "7.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "12.0764"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "12.2759"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "13.4596"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "12.2"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "13.5793"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "13.699"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "13.566"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "13.3"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.5662"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.9967"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "2.4518"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "4.2"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "3.3743"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "3.6326"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "3.7843"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "4.1"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovakia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "6.0787"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovakia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "6.3813"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovakia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "7.3781"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovakia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "7.3"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovakia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "8.1791"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovakia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "8.1346"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovakia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "8.9534"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovakia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "8.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.474751491"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "10.26560636"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "10.45168986"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "13.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "12.94831014"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "13.21192843"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "14.49900596"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "15.6"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "13.9893"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "14.4113"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "14.77"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "19.4"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "16.3103"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "17.7873"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "18.6102"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "21.1"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2005/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "27.5647"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2006/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "28.6837"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2007/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "30.1384"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2008/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "31.6"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2009/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "32.7867"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2010/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "34.6144"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2011/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "36.2556"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel/2012/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "37.3"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2005%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "16.3184"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2006%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "16.492"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2007%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "18.4233"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2008%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "2.9"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2009%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "19.6385"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2010%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "19.1177"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2011%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "18.879"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/laborcostlevel%2F2012%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "21.7"^^xsd:double ;
+	ex:factor "Labor cost levels" .

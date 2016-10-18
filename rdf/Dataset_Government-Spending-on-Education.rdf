@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:qb="http://purl.org/linked-data/cube#"
+	xmlns:ex="http://example.com/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="http://example.com/dataset-7">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#DataSet"/>
+	<dct:title>Government Spending on Education</dct:title>
+	<rdfs:label>Government Spending on Education</rdfs:label>
+	<rdfs:comment>Government Spending on Education</rdfs:comment>
+	<dct:description>Government Spending on Education</dct:description>
+	<dct:publisher>World Bank</dct:publisher>
+	<qb:structure rdf:resource="http://example.com/structure-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/structure-7">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#DataStructureDefinition"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1avc1es49x1">
+	<qb:dimension rdf:resource="http://example.com/country"/>
+	<qb:dimension rdf:resource="http://example.com/period"/>
+	<qb:measure rdf:resource="http://example.com/value"/>
+	<qb:dimension rdf:resource="http://example.com/factor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/structure-7">
+	<qb:component rdf:nodeID="node1avc1es49x1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Austria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Austria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.27148</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Austria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Austria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.25293</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Austria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Austria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.17663</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Austria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Austria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.29698</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Austria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Austria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.7674</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Austria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Austria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.7332</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Austria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Austria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.61861</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Austria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Austria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.45065</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Belgium">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Belgium</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.77514</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Belgium">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Belgium</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.82776</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Belgium">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Belgium</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.843</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Belgium">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Belgium</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.27367</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Belgium">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Belgium</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.39845</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Belgium">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Belgium</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.39667</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Belgium">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Belgium</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.36516</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Belgium">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Belgium</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.6204542</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Bulgaria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Bulgaria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.18855</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Bulgaria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Bulgaria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.98817</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Bulgaria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Bulgaria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7474</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Bulgaria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Bulgaria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.31128</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Bulgaria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Bulgaria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.43296</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Bulgaria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Bulgaria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.01754</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Bulgaria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Bulgaria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.66867</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Bulgaria">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Bulgaria</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.58936</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Croatia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Croatia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.065834</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Croatia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Croatia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.101406</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Croatia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Croatia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.97111</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Croatia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Croatia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.27013</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Croatia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Croatia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.38925</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Croatia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Croatia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.25217</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Croatia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Croatia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.15795</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Croatia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Croatia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.314838</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Cyprus">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Cyprus</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.34274</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Cyprus">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Cyprus</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.39555</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Cyprus">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Cyprus</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.34744</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Cyprus">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Cyprus</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.80899</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Cyprus">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Cyprus</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.30415</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Cyprus">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Cyprus</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.66191</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Cyprus">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Cyprus</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.64467</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Cyprus">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Cyprus</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.986096854</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2005%2FCzech+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Czech Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.89869</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2006%2FCzech+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Czech Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.22392</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2007%2FCzech+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Czech Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.875</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2008%2FCzech+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Czech Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.75273</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2009%2FCzech+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Czech Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.18041</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2010%2FCzech+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Czech Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.07352</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2011%2FCzech+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Czech Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.28418</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2012%2FCzech+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Czech Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.26371</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Denmark">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Denmark</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.08275</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Denmark">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Denmark</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.72783</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Denmark">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Denmark</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.61377</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Denmark">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Denmark</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.49236</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Denmark">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Denmark</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.48796</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Denmark">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Denmark</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.61798</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Denmark">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Denmark</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.5471</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Denmark">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Denmark</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.65958572</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Estonia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Estonia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.84576</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Estonia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Estonia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.113423597</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Estonia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Estonia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.66549</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Estonia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Estonia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.5196</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Estonia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Estonia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.95738</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Estonia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Estonia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.5298</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Estonia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Estonia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.09808</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Estonia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Estonia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.79262</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Finland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Finland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.03606</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Finland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Finland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.9381</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Finland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Finland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.68609</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Finland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Finland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.84677</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Finland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Finland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.48518</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Finland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Finland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.54071</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Finland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Finland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.48201</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Finland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Finland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.19254</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/France">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>France</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.49981</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/France">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>France</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.44211</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/France">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>France</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.44519</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/France">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>France</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.44403</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/France">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>France</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.73849</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/France">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>France</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.68342</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/France">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>France</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.51584</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/France">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>France</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.53344</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Germany">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Germany</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.170329943</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Germany">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Germany</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.28476</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Germany">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Germany</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.34842</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Germany">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Germany</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.41596</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Germany">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Germany</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.88767</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Germany">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Germany</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.921</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Germany">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Germany</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.81496</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Germany">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Germany</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.94831</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Greece">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Greece</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.96574</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Greece">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Greece</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Greece">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Greece</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Greece">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Greece</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Greece">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Greece</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Greece">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Greece</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Greece">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Greece</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Greece">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Greece</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Hungary">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Hungary</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.38289</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Hungary">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Hungary</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.35814</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Hungary">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Hungary</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.19448</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Hungary">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Hungary</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.02306</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Hungary">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Hungary</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.01172</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Hungary">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Hungary</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.81825</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Hungary">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Hungary</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.64508</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Hungary">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Hungary</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.5653786</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Ireland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Ireland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.54981</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Ireland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Ireland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.57605</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Ireland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Ireland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.72311</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Ireland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Ireland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.47034</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Ireland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Ireland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.20758</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Ireland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Ireland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.14069</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Ireland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Ireland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.85089</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Ireland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Ireland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.84453</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Italy">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Italy</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.24747</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Italy">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Italy</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.53567</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Italy">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Italy</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.11659</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Italy">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Italy</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.40076</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Italy">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Italy</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.53407</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Italy">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Italy</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.34919</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Italy">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Italy</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.14054</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Italy">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Italy</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.302455439</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Latvia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Latvia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.506845628</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Latvia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Latvia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2848</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Latvia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Latvia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.26785</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Latvia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Latvia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.79084</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Latvia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Latvia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.91929</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Latvia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Latvia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.55563</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Latvia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Latvia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.48792</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Latvia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Latvia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.20394</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Lithuania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Lithuania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.82612</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Lithuania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Lithuania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.64437</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Lithuania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Lithuania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.85024</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Lithuania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Lithuania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.69268</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Lithuania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Lithuania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.25768</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Lithuania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Lithuania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.31372</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Lithuania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Lithuania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.69513</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Lithuania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Lithuania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.497433128</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Luxembourg">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Luxembourg</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Luxembourg">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Luxembourg</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Luxembourg">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Luxembourg</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Luxembourg">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Luxembourg</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Luxembourg">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Luxembourg</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Luxembourg">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Luxembourg</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Luxembourg">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Luxembourg</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Luxembourg">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Luxembourg</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Malta">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Malta</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.253896327</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Malta">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Malta</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.541151499</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Malta">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Malta</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.31293</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Malta">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Malta</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.8462</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Malta">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Malta</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.44377</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Malta">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Malta</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.91128</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Malta">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Malta</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.96375</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Malta">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Malta</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.75966</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Netherlands">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Netherlands</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.20605</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Netherlands">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Netherlands</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.14168</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Netherlands">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Netherlands</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.97065</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Netherlands">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Netherlands</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.11925</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Netherlands">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Netherlands</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.49481</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Netherlands">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Netherlands</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.5558</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Netherlands">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Netherlands</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.52617</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Netherlands">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Netherlands</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.51428</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Poland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Poland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.45666</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Poland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Poland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.22829</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Poland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Poland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.87176</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Poland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Poland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.07496</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Poland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Poland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.02705</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Poland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Poland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.09644</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Poland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Poland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.86121</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Poland">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Poland</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.817372857</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Portugal">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Portugal</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.07076</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Portugal">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Portugal</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.90802</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Portugal">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Portugal</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.92191</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Portugal">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Portugal</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.70213</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Portugal">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Portugal</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.56214</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Portugal">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Portugal</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.40289</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Portugal">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Portugal</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.12129</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Portugal">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Portugal</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.342030582</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Romania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Romania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.47503</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Romania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Romania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.923049018</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Romania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Romania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.24614</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Romania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Romania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.701673194</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Romania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Romania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.23975</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Romania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Romania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.52577</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Romania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Romania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.07337</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Romania">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Romania</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.9855</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2005%2FSlovak+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovak Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.76648</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2006%2FSlovak+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovak Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.72126</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2007%2FSlovak+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovak Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.54054</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2008%2FSlovak+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovak Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.54412</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2009%2FSlovak+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovak Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.02503</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2010%2FSlovak+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovak Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.13874</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2011%2FSlovak+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovak Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.98871</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2012%2FSlovak+Republic">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovak Republic</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.93731</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Slovenia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovenia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.58241</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Slovenia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovenia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.57559</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Slovenia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovenia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.10509</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Slovenia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovenia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.10609</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Slovenia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovenia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.56859</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Slovenia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovenia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.56756</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Slovenia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovenia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.56985</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Slovenia">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Slovenia</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.65882</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Spain">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Spain</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.13003</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Spain">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Spain</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.16759</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Spain">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Spain</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.23332</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Spain">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Spain</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.50101</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Spain">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Spain</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.86779</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Spain">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Spain</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.81922</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Spain">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Spain</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.84507</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Spain">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Spain</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.36743</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2005/Sweden">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Sweden</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.55951</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2006/Sweden">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Sweden</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.41067</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2007/Sweden">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Sweden</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.21507</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2008/Sweden">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Sweden</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.39073</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2009/Sweden">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Sweden</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.85779</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2010/Sweden">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Sweden</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.62199</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2011/Sweden">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Sweden</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.49112</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending/2012/Sweden">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>Sweden</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.65619</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2005%2FUnited+Kingdom">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>United Kingdom</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.19466</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2006%2FUnited+Kingdom">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>United Kingdom</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.2469</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2007%2FUnited+Kingdom">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>United Kingdom</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.1641</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2008%2FUnited+Kingdom">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>United Kingdom</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.12086</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2009%2FUnited+Kingdom">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>United Kingdom</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.3124</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2010%2FUnited+Kingdom">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>United Kingdom</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.95497</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2011%2FUnited+Kingdom">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>United Kingdom</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.75164</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.com/eduspending%2F2012%2FUnited+Kingdom">
+	<rdf:type rdf:resource="http://purl.org/linked-data/cube#Observation"/>
+	<qb:dataSet rdf:resource="http://example.com/dataset-7"/>
+	<ex:country>United Kingdom</ex:country>
+	<ex:period rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</ex:period>
+	<ex:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.854415686</ex:value>
+	<ex:factor>Government Spending on Education</ex:factor>
+</rdf:Description>
+
+</rdf:RDF>

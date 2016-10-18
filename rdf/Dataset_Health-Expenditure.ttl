@@ -1,0 +1,1593 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix ex: <http://example.com/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+ex:dataset-8 a qb:DataSet ;
+	dct:title "Health Expenditure" ;
+	rdfs:label "Health Expenditure" ;
+	rdfs:comment "Health Expenditure" ;
+	dct:description "Health Expenditure" ;
+	dct:publisher "World Bank" ;
+	qb:structure ex:structure-8 .
+
+ex:structure-8 a qb:DataStructureDefinition .
+
+_:node1avc1dv6jx1 qb:dimension ex:country , ex:period ;
+	qb:measure ex:value ;
+	qb:dimension ex:factor .
+
+ex:structure-8 qb:component _:node1avc1dv6jx1 .
+
+<http://example.com/healthexp/2005/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Austria" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "10.53141508"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Austria" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "10.35154773"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Austria" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "10.40127692"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Austria" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "10.60392998"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Austria" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "11.19443731"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Austria" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "11.16524816"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Austria" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "10.93557307"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Austria" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "11.16821981"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Belgium" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.24428757"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Belgium" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "9.17112797"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Belgium" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "9.25207442"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Belgium" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "9.59842645"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Belgium" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "10.39434014"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Belgium" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "10.16564067"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Belgium" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "10.42349563"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Belgium" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "10.53975001"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Bulgaria" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "7.07978092"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Bulgaria" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "6.6734753"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Bulgaria" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "6.41034419"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Bulgaria" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "6.61156197"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Bulgaria" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "6.77819389"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Bulgaria" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "7.24456053"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Bulgaria" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "6.88297734"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Bulgaria" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "7.10569778"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Croatia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "6.89409977"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Croatia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "6.95312104"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Croatia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "7.44334788"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Croatia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "7.7045206"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Croatia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "8.17701771"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Croatia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "8.24785313"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Croatia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "7.79909419"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Croatia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "7.79722563"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Cyprus" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "6.3690867"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Cyprus" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "6.27810151"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Cyprus" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "6.05253416"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Cyprus" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "6.89217292"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Cyprus" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "7.40220132"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Cyprus" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "7.2339653"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Cyprus" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "7.53731961"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Cyprus" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "7.43887767"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp%2F2005%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Czech Republic" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "6.93394326"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2006%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Czech Republic" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "6.69370303"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2007%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Czech Republic" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "6.522339"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2008%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Czech Republic" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "6.81889577"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2009%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Czech Republic" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "7.84539515"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2010%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Czech Republic" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "7.4318989"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2011%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Czech Republic" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "7.50106056"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2012%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Czech Republic" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "7.54794135"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Denmark" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.7699606"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Denmark" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "9.92431629"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Denmark" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "9.98729401"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Denmark" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "10.18303034"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Denmark" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "11.47219769"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Denmark" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "11.08183797"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Denmark" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "10.86554541"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Denmark" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "10.9838191"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Estonia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "5.01934025"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Estonia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "5.01483256"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Estonia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "5.15908483"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Estonia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "6.05608547"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Estonia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "6.93238582"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Estonia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "6.24878186"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Estonia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "5.8320426"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Estonia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "6.36428657"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Finland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "8.42946509"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Finland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "8.38132513"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Finland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "8.09335361"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Finland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "8.35417138"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Finland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.20360107"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Finland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "9.0454216"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Finland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "9.01149493"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Finland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.29823712"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/France> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "France" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "10.59988615"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/France> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "France" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "10.52922033"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/France> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "France" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "10.44898821"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/France> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "France" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "10.5698701"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/France> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "France" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "11.28059369"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/France> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "France" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "11.19721933"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/France> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "France" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "11.33488998"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/France> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "France" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "11.43898967"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Germany" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "10.51754561"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Germany" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "10.34100073"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Germany" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "10.1804053"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Germany" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "10.39246762"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Germany" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "11.40325491"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Germany" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "11.25156004"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Germany" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "10.93273699"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Germany" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "10.99191973"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Greece" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.36146591"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Greece" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "9.33528442"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Greece" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "9.4084693"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Greece" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "9.75879775"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Greece" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.76326668"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Greece" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "9.18486746"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Greece" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "9.77188991"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Greece" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.24254484"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Hungary" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "8.27979357"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Hungary" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "8.09995208"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Hungary" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "7.50953251"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Hungary" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "7.32650666"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Hungary" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "7.54933377"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Hungary" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "7.85048555"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Hungary" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "7.84003067"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Hungary" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "7.74065817"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Ireland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "7.26683559"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Ireland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "7.22353538"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Ireland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "7.57001772"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Ireland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "8.64102477"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Ireland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.53009384"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Ireland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "8.76096475"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Ireland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "8.14533747"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Ireland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "8.32055052"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Italy" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "8.70707069"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Italy" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "8.81849072"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Italy" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "8.48168567"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Italy" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "8.88584923"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Italy" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.41489657"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Italy" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "9.41991203"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Italy" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "9.27499911"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Italy" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.28206804"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Latvia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "6.37415759"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Latvia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "6.7991405"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Latvia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "7.01215151"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Latvia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "6.63050503"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Latvia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "6.83979658"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Latvia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "6.55480303"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Latvia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "6.09974017"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Latvia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "5.90778351"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Lithuania" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "5.83432657"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Lithuania" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "6.19588569"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Lithuania" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "6.22384874"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Lithuania" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "6.60837899"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Lithuania" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "7.53257874"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Lithuania" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "7.09033823"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Lithuania" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "6.85596808"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Lithuania" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "6.66789481"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Luxembourg" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "7.94570112"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Luxembourg" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "7.74947883"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Luxembourg" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "6.79800543"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Luxembourg" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "7.33859064"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Luxembourg" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "8.1146262"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Luxembourg" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "7.68088676"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Luxembourg" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "7.3409169"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Luxembourg" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "7.17505184"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Malta" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "8.83355332"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Malta" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "8.93281432"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Malta" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "8.35676141"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Malta" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "8.15397796"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Malta" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "8.33140474"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Malta" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "8.29921427"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Malta" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "9.59870689"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Malta" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.95129454"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Netherlands" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.59771913"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Netherlands" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "9.35703746"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Netherlands" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "9.35717394"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Netherlands" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "9.57126055"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Netherlands" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "10.29027545"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Netherlands" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "10.47572212"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Netherlands" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "10.52716599"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Netherlands" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "11.01234745"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Poland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "6.20353532"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Poland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "6.1706712"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Poland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "6.27954647"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Poland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "6.87653481"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Poland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "7.12088233"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Poland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "6.88449165"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Poland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "6.7023798"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Poland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "6.61772998"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Portugal" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.97647249"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Portugal" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "9.67265428"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Portugal" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "9.61953682"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Portugal" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "9.89868879"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Portugal" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "10.41844886"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Portugal" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "10.43672755"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Portugal" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "10.06864127"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Portugal" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.74360978"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Romania" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "5.46905767"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Romania" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "5.05987966"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Romania" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "5.21089978"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Romania" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "5.33489757"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Romania" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "5.55959499"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Romania" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "5.83283431"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Romania" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "5.52618204"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Romania" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "5.47833245"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp%2F2005%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovak Republic" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "7.04485118"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2006%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovak Republic" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "7.34768079"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2007%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovak Republic" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "7.75529417"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2008%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovak Republic" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "8.0208281"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2009%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovak Republic" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.15199445"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2010%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovak Republic" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "8.50861648"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2011%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovak Republic" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "7.95706221"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2012%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovak Republic" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "8.14522055"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovenia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "8.49586245"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovenia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "8.41787985"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovenia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "7.98322378"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovenia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "8.46557039"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovenia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.37871271"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovenia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "9.06859821"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Slovenia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "9.0771408"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Slovenia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.36723766"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Spain" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "8.11898424"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Spain" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "8.23258934"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Spain" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "8.35762244"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Spain" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "8.80496468"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Spain" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.52140118"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Spain" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "9.55574089"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Spain" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "9.47835693"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Spain" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.38884953"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp/2005/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Sweden" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "9.06150305"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2006/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Sweden" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "8.94799761"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2007/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Sweden" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "8.91722313"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2008/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Sweden" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "9.22835422"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2009/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Sweden" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.93895273"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2010/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Sweden" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "9.46876598"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2011/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "Sweden" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "11.70251308"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp/2012/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "Sweden" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "11.80240408"^^xsd:double ;
+	ex:factor "Labor cost levels" .
+
+<http://example.com/healthexp%2F2005%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "United Kingdom" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "8.23536912"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2006%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "United Kingdom" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "8.36326097"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2007%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "United Kingdom" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "8.41613855"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2008%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "United Kingdom" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "8.85089693"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2009%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "United Kingdom" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "9.80995593"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2010%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "United Kingdom" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "9.50702943"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2011%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-8 ;
+	ex:country "United Kingdom" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "9.33870027"^^xsd:double ;
+	ex:factor "Health Expenditure" .
+
+<http://example.com/healthexp%2F2012%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-1 ;
+	ex:country "United Kingdom" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "9.41083326"^^xsd:double ;
+	ex:factor "Labor cost levels" .

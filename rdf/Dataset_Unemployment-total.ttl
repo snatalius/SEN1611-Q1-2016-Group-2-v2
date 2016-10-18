@@ -1,0 +1,1593 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix ex: <http://example.com/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+ex:dataset-9 a qb:DataSet ;
+	dct:title "Unemployment total" ;
+	rdfs:label "Unemployment total" ;
+	rdfs:comment "Unemployment total" ;
+	dct:description "Unemployment total" ;
+	dct:publisher "World Bank" ;
+	qb:structure ex:structure-9 .
+
+ex:structure-9 a qb:DataStructureDefinition .
+
+_:node1avc1fkevx1 qb:dimension ex:country , ex:period ;
+	qb:measure ex:value ;
+	qb:dimension ex:factor .
+
+ex:structure-9 qb:component _:node1avc1fkevx1 .
+
+<http://example.com/unemployment/2005/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Austria" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "2.38"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Austria" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "2.37"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Austria" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "2.43"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Austria" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "2.59"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Austria" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "2.61"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Austria" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "2.74"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Austria" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "2.68"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Austria" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "2.89"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Belgium" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.78"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Belgium" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.81"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Belgium" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.84"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Belgium" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.92"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Belgium" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.99"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Belgium" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "2.05"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Belgium" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "2.16"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Belgium" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "2.36"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Bulgaria" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.44"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Bulgaria" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.44"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Bulgaria" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.43"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Bulgaria" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Bulgaria" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.5"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Bulgaria" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.57"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Bulgaria" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.54"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Bulgaria" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.61"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Croatia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.86"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Croatia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.74"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Croatia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.79"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Croatia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.88"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Croatia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.84"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Croatia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.74"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Croatia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.75"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Croatia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.75"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Cyprus" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.37"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Cyprus" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.39"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Cyprus" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.4"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Cyprus" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.39"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Cyprus" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Cyprus" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Cyprus" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Cyprus" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.43"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2005%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Czech Republic" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.17"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2006%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Czech Republic" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.23"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2007%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Czech Republic" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.31"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2008%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Czech Republic" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.24"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2009%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Czech Republic" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.3"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2010%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Czech Republic" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.34"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2011%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Czech Republic" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.56"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2012%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Czech Republic" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.79"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Denmark" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "2.39"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Denmark" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "2.4"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Denmark" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "2.51"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Denmark" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "2.78"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Denmark" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "3.07"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Denmark" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "2.94"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Denmark" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "2.97"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Denmark" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "3"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Estonia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.92"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Estonia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.12"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Estonia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.07"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Estonia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.26"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Estonia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.4"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Estonia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.58"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Estonia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "2.31"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Estonia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "2.11"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Finland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "3.33"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Finland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "3.34"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Finland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "3.35"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Finland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "3.55"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Finland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "3.75"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Finland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "3.73"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Finland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "3.64"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Finland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "3.42"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/France> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "France" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "2.04"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/France> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "France" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "2.05"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/France> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "France" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "2.02"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/France> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "France" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "2.06"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/France> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "France" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "2.21"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/France> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "France" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "2.18"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/France> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "France" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "2.19"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/France> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "France" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "2.23"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Germany" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "2.42"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Germany" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "2.46"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Germany" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "2.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Germany" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "2.6"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Germany" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "2.72"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Germany" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "2.71"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Germany" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "2.79"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Germany" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "2.87"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Greece" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.58"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Greece" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.56"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Greece" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.58"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Greece" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.66"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Greece" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.63"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Greece" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.6"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Greece" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.67"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Greece" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.7"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Hungary" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.93"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Hungary" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.99"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Hungary" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.96"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Hungary" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.99"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Hungary" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.14"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Hungary" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.15"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Hungary" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.2"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Hungary" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.27"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Ireland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.19"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Ireland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.2"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Ireland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.23"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Ireland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.39"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Ireland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.61"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Ireland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.61"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Ireland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.53"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Ireland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.56"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Italy" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.05"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Italy" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.09"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Italy" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.13"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Italy" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.16"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Italy" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.22"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Italy" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.22"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Italy" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.21"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Italy" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.27"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Latvia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.53"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Latvia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.65"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Latvia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.55"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Latvia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.58"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Latvia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Latvia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.61"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Latvia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.7"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Latvia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.67"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Lithuania" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.75"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Lithuania" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.79"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Lithuania" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.8"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Lithuania" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.79"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Lithuania" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.83"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Lithuania" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.78"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Lithuania" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.9"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Lithuania" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.9"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Luxembourg" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.59"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Luxembourg" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.69"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Luxembourg" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.61"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Luxembourg" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.64"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Luxembourg" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.71"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Luxembourg" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.53"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Luxembourg" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.5"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Luxembourg" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.29"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Malta" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.53"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Malta" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.58"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Malta" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.55"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Malta" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.53"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Malta" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.52"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Malta" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.64"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Malta" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.69"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Malta" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.86"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Netherlands" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.79"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Netherlands" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.76"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Netherlands" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.69"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Netherlands" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.64"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Netherlands" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.69"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Netherlands" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.72"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Netherlands" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.9"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Netherlands" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.94"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Poland" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.57"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Poland" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.55"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Poland" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.56"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Poland" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.6"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Poland" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.67"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Poland" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.72"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Poland" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.75"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Poland" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.88"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Portugal" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.76"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Portugal" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.95"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Portugal" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.12"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Portugal" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Portugal" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.58"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Portugal" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.53"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Portugal" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.46"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Portugal" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.38"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Romania" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.41"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Romania" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Romania" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.52"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Romania" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.57"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Romania" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.46"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Romania" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Romania" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.49"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Romania" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.48"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovakia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.5"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovakia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.48"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovakia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovakia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.46"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovakia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.47"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovakia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.62"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovakia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.67"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Slovakia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovakia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.81"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovenia" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.41"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovenia" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.53"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovenia" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.42"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovenia" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.63"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovenia" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.82"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovenia" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "2.06"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovenia" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "2.42"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Slovenia" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "2.58"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Spain" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.1"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Spain" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.17"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Spain" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.23"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Spain" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.32"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Spain" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.35"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Spain" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.35"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Spain" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.33"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Spain" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.28"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2005/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Sweden" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "3.39"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2006/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Sweden" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "3.5"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2007/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Sweden" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "3.26"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2008/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Sweden" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "3.5"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2009/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Sweden" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "3.45"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2010/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Sweden" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "3.22"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2011/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Sweden" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "3.25"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment/2012/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "Sweden" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "3.28"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2005%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "United Kingdom" ;
+	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.63"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2006%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "United Kingdom" ;
+	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.65"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2007%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "United Kingdom" ;
+	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.68"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2008%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "United Kingdom" ;
+	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.69"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2009%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "United Kingdom" ;
+	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.74"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2010%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "United Kingdom" ;
+	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.69"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2011%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "United Kingdom" ;
+	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.69"^^xsd:double ;
+	ex:factor "Unemployment total" .
+
+<http://example.com/unemployment%2F2012%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-9 ;
+	ex:country "United Kingdom" ;
+	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.62"^^xsd:double ;
+	ex:factor "Unemployment total" .
