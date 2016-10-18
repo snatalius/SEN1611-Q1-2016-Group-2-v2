@@ -1,0 +1,193 @@
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix ex: <http://example.com/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+ex:dataset-5 a qb:DataSet ;
+	dct:title "EU Top 20 University Count (Mechanical&Manufacturing)" ;
+	rdfs:label "EU Top 20 University Count (Mechanical&Manufacturing)" ;
+	rdfs:comment "EU Top 20 University Count (Mechanical&Manufacturing)" ;
+	dct:description "EU Top 20 University Count (Mechanical&Manufacturing)" ;
+	dct:publisher "QS University Ranking" ;
+	qb:structure ex:structure-5 .
+
+ex:structure-5 a qb:DataStructureDefinition .
+
+_:node1avc7kkolx1 qb:dimension ex:country ;
+	qb:measure ex:count ;
+	qb:dimension ex:factor .
+
+ex:structure-5 qb:component _:node1avc7kkolx1 .
+
+<http://example.com/univcount-eng/Austria> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Austria" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Belgium> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Belgium" ;
+	ex:count "1"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Bulgaria> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Bulgaria" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Croatia> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Croatia" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Cyprus> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Cyprus" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng%2FCzech+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Czech Republic" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Germany> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Germany" ;
+	ex:count "4"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Denmark> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Denmark" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Spain> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Spain" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Estonia> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Estonia" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/France> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "France" ;
+	ex:count "1"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng%2FUnited+Kingdom> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "United Kingdom" ;
+	ex:count "6"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Greece> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Greece" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Hungary> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Hungary" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Ireland> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Ireland" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Italy> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Italy" ;
+	ex:count "2"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Lithuania> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Lithuania" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Luxembourg> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Luxembourg" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Latvia> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Latvia" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Malta> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Malta" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Netherlands> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Netherlands" ;
+	ex:count "1"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Finland> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Finland" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Poland> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Poland" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Portugal> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Portugal" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Romania> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Romania" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng%2FSlovak+Republic> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Slovak Republic" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Slovenia> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Slovenia" ;
+	ex:count "0"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
+
+<http://example.com/univcount-eng/Sweden> a qb:Observation ;
+	qb:dataSet ex:dataset-5 ;
+	ex:country "Sweden" ;
+	ex:count "2"^^xsd:int ;
+	ex:factor "EU Top 20 University Count (Mechanical&Manufacturing)" .
