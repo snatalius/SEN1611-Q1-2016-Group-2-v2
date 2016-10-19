@@ -18,11 +18,11 @@ ex:dataset-2 a qb:DataSet ;
 
 ex:structure-2 a qb:DataStructureDefinition .
 
-_:node1avc1d948x1 qb:dimension ex:country , ex:period ;
+_:node1avel1cecx1 qb:dimension ex:country , ex:period ;
 	qb:measure ex:value ;
 	qb:dimension ex:factor .
 
-ex:structure-2 qb:component _:node1avc1d948x1 .
+ex:structure-2 qb:component _:node1avel1cecx1 .
 
 <http://example.com/centralgovdebt/2005/Austria> a qb:Observation ;
 	qb:dataSet ex:dataset-2 ;
@@ -1484,48 +1484,56 @@ ex:structure-2 qb:component _:node1avc1d948x1 .
 	qb:dataSet ex:dataset-2 ;
 	ex:country "Slovenia" ;
 	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Central government debt total" .
 
 <http://example.com/centralgovdebt/2006/Slovenia> a qb:Observation ;
 	qb:dataSet ex:dataset-2 ;
 	ex:country "Slovenia" ;
 	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Central government debt total" .
 
 <http://example.com/centralgovdebt/2007/Slovenia> a qb:Observation ;
 	qb:dataSet ex:dataset-2 ;
 	ex:country "Slovenia" ;
 	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Central government debt total" .
 
 <http://example.com/centralgovdebt/2008/Slovenia> a qb:Observation ;
 	qb:dataSet ex:dataset-2 ;
 	ex:country "Slovenia" ;
 	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Central government debt total" .
 
 <http://example.com/centralgovdebt/2009/Slovenia> a qb:Observation ;
 	qb:dataSet ex:dataset-2 ;
 	ex:country "Slovenia" ;
 	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Central government debt total" .
 
 <http://example.com/centralgovdebt/2010/Slovenia> a qb:Observation ;
 	qb:dataSet ex:dataset-2 ;
 	ex:country "Slovenia" ;
 	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Central government debt total" .
 
 <http://example.com/centralgovdebt/2011/Slovenia> a qb:Observation ;
 	qb:dataSet ex:dataset-2 ;
 	ex:country "Slovenia" ;
 	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Central government debt total" .
 
 <http://example.com/centralgovdebt/2012/Slovenia> a qb:Observation ;
 	qb:dataSet ex:dataset-2 ;
 	ex:country "Slovenia" ;
 	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Central government debt total" .
 
 <http://example.com/centralgovdebt/2005/Sweden> a qb:Observation ;
