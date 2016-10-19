@@ -18,11 +18,11 @@ ex:dataset-7 a qb:DataSet ;
 
 ex:structure-7 a qb:DataStructureDefinition .
 
-_:node1avc7p271x1 qb:dimension ex:country , ex:period ;
+_:node1avelalj4x1 qb:dimension ex:country , ex:period ;
 	qb:measure ex:value ;
 	qb:dimension ex:factor .
 
-ex:structure-7 qb:component _:node1avc7p271x1 .
+ex:structure-7 qb:component _:node1avelalj4x1 .
 
 <http://example.com/eduspending/2005/Austria> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
@@ -651,42 +651,49 @@ ex:structure-7 qb:component _:node1avc7p271x1 .
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Greece" ;
 	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2007/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Greece" ;
 	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2008/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Greece" ;
 	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2009/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Greece" ;
 	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2010/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Greece" ;
 	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2011/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Greece" ;
 	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2012/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Greece" ;
 	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2005/Hungary> a qb:Observation ;
@@ -973,48 +980,56 @@ ex:structure-7 qb:component _:node1avc7p271x1 .
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Luxembourg" ;
 	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2006/Luxembourg> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Luxembourg" ;
 	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2007/Luxembourg> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Luxembourg" ;
 	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2008/Luxembourg> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Luxembourg" ;
 	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2009/Luxembourg> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Luxembourg" ;
 	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2010/Luxembourg> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Luxembourg" ;
 	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2011/Luxembourg> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Luxembourg" ;
 	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2012/Luxembourg> a qb:Observation ;
 	qb:dataSet ex:dataset-7 ;
 	ex:country "Luxembourg" ;
 	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "1.0E-8"^^xsd:double ;
 	ex:factor "Government Spending on Education" .
 
 <http://example.com/eduspending/2005/Malta> a qb:Observation ;
