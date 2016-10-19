@@ -18,11 +18,11 @@ ex:dataset-11 a qb:DataSet ;
 
 ex:structure-11 a qb:DataStructureDefinition .
 
-_:node1avc1guaox1 qb:dimension ex:country , ex:period ;
+_:node1avf9aa5fx1 qb:dimension ex:country , ex:period ;
 	qb:measure ex:value ;
 	qb:dimension ex:factor .
 
-ex:structure-11 qb:component _:node1avc1guaox1 .
+ex:structure-11 qb:component _:node1avf9aa5fx1 .
 
 <http://example.com/motorizationrate/2005/Austria> a qb:Observation ;
 	qb:dataSet ex:dataset-11 ;
@@ -644,48 +644,56 @@ ex:structure-11 qb:component _:node1avc1guaox1 .
 	qb:dataSet ex:dataset-11 ;
 	ex:country "Greece" ;
 	ex:period "2005-01-01"^^xsd:date ;
+	ex:value "0.0"^^xsd:double ;
 	ex:factor "Motorization rate" .
 
 <http://example.com/motorizationrate/2006/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-11 ;
 	ex:country "Greece" ;
 	ex:period "2006-01-01"^^xsd:date ;
+	ex:value "0.0"^^xsd:double ;
 	ex:factor "Motorization rate" .
 
 <http://example.com/motorizationrate/2007/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-11 ;
 	ex:country "Greece" ;
 	ex:period "2007-01-01"^^xsd:date ;
+	ex:value "0.0"^^xsd:double ;
 	ex:factor "Motorization rate" .
 
 <http://example.com/motorizationrate/2008/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-11 ;
 	ex:country "Greece" ;
 	ex:period "2008-01-01"^^xsd:date ;
+	ex:value "0.0"^^xsd:double ;
 	ex:factor "Motorization rate" .
 
 <http://example.com/motorizationrate/2009/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-11 ;
 	ex:country "Greece" ;
 	ex:period "2009-01-01"^^xsd:date ;
+	ex:value "0.0"^^xsd:double ;
 	ex:factor "Motorization rate" .
 
 <http://example.com/motorizationrate/2010/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-11 ;
 	ex:country "Greece" ;
 	ex:period "2010-01-01"^^xsd:date ;
+	ex:value "0.0"^^xsd:double ;
 	ex:factor "Motorization rate" .
 
 <http://example.com/motorizationrate/2011/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-11 ;
 	ex:country "Greece" ;
 	ex:period "2011-01-01"^^xsd:date ;
+	ex:value "0.0"^^xsd:double ;
 	ex:factor "Motorization rate" .
 
 <http://example.com/motorizationrate/2012/Greece> a qb:Observation ;
 	qb:dataSet ex:dataset-11 ;
 	ex:country "Greece" ;
 	ex:period "2012-01-01"^^xsd:date ;
+	ex:value "0.0"^^xsd:double ;
 	ex:factor "Motorization rate" .
 
 <http://example.com/motorizationrate/2005/Hungary> a qb:Observation ;
